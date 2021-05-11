@@ -2,4 +2,4 @@
 ![NavBar](nav_bar.png)
 
 ## The following will be the footer section ...
-![FooterBar](footer_bar.png)
+![FooterBar](footer_bar.gif)
