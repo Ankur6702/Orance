@@ -107,12 +107,12 @@
 
 .sectionLeft {
     height: 49vw;
-    animation: animate 2s ease-in-out forwards;
+    animation: animate 2.5s ease-in-out forwards;
 }
 
 .r {
     height: 49vw;
-    animation: animate1 2s ease-in-out forwards;
+    animation: animate1 2.5s ease-in-out forwards;
 }
 
 .sketch {
