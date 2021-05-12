@@ -56,9 +56,9 @@
 }
 
 .logo {
-    width: 5vw;
-    height: 4vw;
-    margin: 1vw 1vw;
+    width: 12vw;
+    height: 6vw;
+    margin: 0vw 1.5vw;
 }
 
 .navbar {
@@ -73,7 +73,8 @@
 
 .navbar ul {
     display: flex;
-    margin-left: 24vw;
+    margin-left: 16vw;
+    margin-top: 0.3vw;
 }
 
 .navbar ul li {
