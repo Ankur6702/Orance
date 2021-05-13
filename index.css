@@ -202,6 +202,8 @@
         text-align: center;
         margin-top: 8rem;
         margin-bottom: 3rem;
+        color: #676871;
+        font-family: sans-serif;
     }
     
     .catagoryDesc {
@@ -224,6 +226,7 @@
         margin: 1rem;
         margin-bottom: 4rem;
         transition: 0.5s;
+        position: relative;
     }
     
     .componentImage {
@@ -231,12 +234,9 @@
         height: 100%;
     }
     
-    .catagoryImageDiv:hover {
-        opacity: 0.4;
-    }
-    
     .catagorylink {
         text-align: center;
+        margin-bottom: 3rem;
     }
     
     .catagorylink a {
@@ -249,4 +249,36 @@
     .catagorylink a:hover {
         background-color: rgb(150, 149, 149);
         color: white;
+    }
+    
+    .imageHover {
+        transition: 0.5s;
+    }
+    
+    .imageHover:hover {
+        opacity: 0.4;
+    }
+    
+    .imageText {
+        font-size: 2.5rem;
+        color: Black;
+        visibility: hidden;
+    }
+    
+    .imgText1 {
+        position: absolute;
+        top: 45%;
+        left: 30%;
+    }
+    
+    .imgText2 {
+        position: absolute;
+        top: 45%;
+        left: 25%;
+    }
+    
+    .imgText3 {
+        position: absolute;
+        top: 45%;
+        left: 20%;
     }
