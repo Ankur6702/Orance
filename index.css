@@ -100,7 +100,7 @@
 }
 
 .containerImage {
-    background: url("sketch.jpg");
+    background: url("./image/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     animation: zoom 2s ease-in forwards;
