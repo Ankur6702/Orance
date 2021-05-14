@@ -208,7 +208,7 @@
     
     .catagoryDesc {
         width: 50%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 0 auto;
         text-align: center;
         margin-bottom: 2rem;
@@ -234,6 +234,33 @@
         height: 100%;
     }
     
+    .imageText {
+        width: 70%;
+        font-size: 2.5rem;
+        color: white;
+        font-weight: bold;
+        visibility: hidden;
+        transition: 0.5s;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 3rem;
+    }
+    
+    .imageText p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .catagoryImageDiv:hover {
+        filter: hue-rotate(180deg);
+    }
+    
+    .catagoryImageDiv:hover .imageText {
+        transform: translateY(7.5rem);
+        visibility: visible;
+    }
+    
     .catagorylink {
         text-align: center;
         margin-bottom: 3rem;
@@ -247,38 +274,5 @@
     }
     
     .catagorylink a:hover {
-        background-color: rgb(150, 149, 149);
-        color: white;
-    }
-    
-    .imageHover {
-        transition: 0.5s;
-    }
-    
-    .imageHover:hover {
-        opacity: 0.4;
-    }
-    
-    .imageText {
-        font-size: 2.5rem;
-        color: Black;
-        visibility: hidden;
-    }
-    
-    .imgText1 {
-        position: absolute;
-        top: 45%;
-        left: 30%;
-    }
-    
-    .imgText2 {
-        position: absolute;
-        top: 45%;
-        left: 25%;
-    }
-    
-    .imgText3 {
-        position: absolute;
-        top: 45%;
-        left: 20%;
+        background-color: rgb(189, 188, 188);
     }
