@@ -8,29 +8,31 @@
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
 
+    <!--vendor css -->
+    <link rel="stylesheet" href="../bootstrap.min.css">
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="styles.css">
 
     <!-- For Icons -->
     <script src="https://kit.fontawesome.com/c4d33982c0.js" crossorigin="anonymous"></script>
 
-    <!--vendor css -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <!-- bootstrap css -->
+
+
 </head>
 
 <body>
   <nav>
     <div class="super_container">
         <!-- Header -->
-        <header class="header">
+        <header class="tb-header">
             <!-- Top Bar Starts Here which contains mobile and email on top section-->
             <div class="top_bar">
-                <div class="container">
+                <div class="tb-container">
                     <!-- below is the code for 1 row and 1 column for mail and phone number  -->
-                    <div class="row">
+                    <div class="tb-row">
                         <!-- here I specify the row -->
-                        <div class="col d-flex flex-row">
+                        <div class="tb-col tb-d-flex tb-flex-row">
                             <!-- Here I speficy the one column only -->
                             <div class="top_bar_contact_item">
                                 <!-- the phone number item -->
@@ -40,7 +42,7 @@
                                 <!-- the email item -->
                                 <div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">service@orance.com</a>
                             </div>
-                            <div class="top_bar_content ml-auto">
+                            <div class="top_bar_content tb-ml-auto">
                                 <!--top bar register and sigin-->
                                 <div class="top_bar_user">
                                     <!-- icon for register and signin -->
@@ -57,10 +59,10 @@
             <!-- Navigation Bar which has logo and search bar -->
             <div class="header_main">
                 <!-- header main is used so that it will not affected when you use it in your website -->
-                <div class="container">
-                    <div class="row">
+                <div class="tb-container">
+                    <div class="tb-row">
                         <!-- single row is defined here -->
-                        <div class="col-lg-2 col-sm-3 col-3 order-1">
+                        <div class="tb-col-lg-2 tb-col-sm-3 tb-col-3 tb-order-1">
                             <!-- first column for logo of website -->
                             <div class="logo_container">
                                 <!-- logo code is here -->
@@ -70,11 +72,11 @@
                             </div>
                         </div>
                         <!-- second column is from here that is for search bar -->
-                        <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="tb-col-lg-6 col-12 tb-order-lg-2 tb-order-3 tb-text-lg-left tb-text-right">
                             <div class="header_search">
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
-                                        <form action="#" class="header_search_form clearfix"> <input type="search" required="required" class="header_search_input" placeholder="Search arts...">
+                                        <form action="#" class="header_search_form tb-clearfix"> <input type="search" required="required" class="header_search_input" placeholder="Search arts...">
                                             <div class="custom_dropdown" style="display: none;">
                                             </div> <button type="submit" class="header_search_button trans_300" value="Submit"><img
                           src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png"
@@ -90,12 +92,12 @@
             </div>
             <!-- sub navigation bar for dropdown categories and categories -->
             <nav class="main_nav">
-                <div class="container">
-                    <div class="row">
+                <div class="tb-container">
+                    <div class="tb-row">
                         <!-- single row is used -->
-                        <div class="col">
+                        <div class="tb-col">
                             <!-- single column is enough to handle all tabs for categories -->
-                            <div class="main_nav_content d-flex flex-row">
+                            <div class="main_nav_content tb-d-flex tb-flex-row">
                                 <div class="main_nav_menu">
                                     <!-- it starts here subnavigation bar tabs for categories-->
                                     <ul class="standard_dropdown main_nav_dropdown">
@@ -160,14 +162,14 @@
 
         <!-- footer section starts here  -->
         <footer id="dk-footer" class="dk-footer">
-            <div class="container">
-                <div class="row">
+            <div class="tb-container">
+                <div class="tb-row">
                     <!-- Above section of copyright section -->
-                    <div class="col-md-12 col-lg-4">
+                    <div class="tb-col-md-12 tb-col-lg-4">
                         <div class="dk-footer-box-info">
                             <a href="index.html" class="footer-logo">
                                 <!-- footer logo -->
-                                <img src="https://cdn.pixabay.com/photo/2017/06/10/22/58/composing-2391033_1280.jpg" alt="footer_logo" class="img-fluid">
+                                <img src="https://cdn.pixabay.com/photo/2017/06/10/22/58/composing-2391033_1280.jpg" alt="footer_logo" class="tb-img-fluid">
                             </a>
                             <p class="footer-info-text">
                                 Connecting Artists...
@@ -209,9 +211,9 @@
                     </div>
                     <!-- End Col -->
                     <!-- Address and Mobile Number Column -->
-                    <div class="col-md-12 col-lg-8">
-                        <div class="row">
-                            <div class="col-md-6">
+                    <div class="tb-col-md-12 tb-col-lg-8">
+                        <div class="tb-row">
+                            <div class="tb-col-md-6">
                                 <div class="contact-us">
                                     <div class="contact-icon">
                                         <i class="fa fa-map-o" aria-hidden="true"></i>
@@ -226,7 +228,7 @@
                                 <!-- End Contact Us -->
                             </div>
                             <!-- End Col -->
-                            <div class="col-md-6">
+                            <div class="tb-col-md-6">
                                 <div class="contact-us contact-us-last">
                                     <div class="contact-icon">
                                         <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
@@ -243,9 +245,9 @@
                             <!-- End Col -->
                         </div>
                         <!-- End Contact Row -->
-                        <div class="row">
+                        <div class="tb-row">
                             <!-- Other and Useful link section -->
-                            <div class="col-md-12 col-lg-6">
+                            <div class="tb-col-md-12 tb-col-lg-6">
                                 <div class="footer-widget footer-left-widget">
                                     <div class="section-heading">
                                         <h3>Useful Links</h3>
@@ -269,7 +271,7 @@
                                 <!-- End Footer Widget -->
                             </div>
                             <!-- End col -->
-                            <div class="col-md-12 col-lg-6">
+                            <div class="tb-col-md-12 tb-col-lg-6">
                                 <div class="footer-widget">
                                     <div class="section-heading">
                                         <h3>Subscribe</h3>
@@ -280,9 +282,9 @@
                                         Get the latest updates
                                     </p>
                                     <form action="#">
-                                        <div class="form-row">
-                                            <div class="col dk-footer-form">
-                                                <input type="email" class="form-control" placeholder="Email Address">
+                                        <div class="tb-form-row">
+                                            <div class="tb-col dk-footer-form">
+                                                <input type="email" class="tb-form-control" placeholder="Email Address">
                                                 <button type="submit">
                           <i class="fa fa-send"></i>
                         </button>
@@ -305,9 +307,9 @@
 
 
             <div class="copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
+                <div class="tb-container">
+                    <div class="tb-row">
+                        <div class="tb-col-md-6">
                             <span>Copyright © 2021, All Right Reserved Orance</span>
                         </div>
                     </div>
