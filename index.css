@@ -4,16 +4,16 @@
         box-sizing: border-box;
         font-family: Helvetica;
     }
-
+    
     .homepage_dropdownButton {
         border: none;
         background-color: black;
     }
-
+    
     .homepage_dropdownButton:hover {
         cursor: pointer;
     }
-
+    
     .homepage_dropdownContent {
         display: none;
         position: absolute;
@@ -23,23 +23,23 @@
         transform: translateX(-4vw) translateY(0.5vw);
         border-radius: 1vw;
     }
-
+    
     .homepage_dropdownContent a {
         color: black;
         padding: 1vw 2vw;
         text-decoration: none;
         display: block;
     }
-
+    
     .homepage_dropdownContent a:hover {
         background-color: #e7e9eb;
         border-radius: 1vw;
     }
-
+    
     .homepage_active {
         display: block;
     }
-
+    
     .homepage_right {
         padding: 0.3vw;
         position: absolute;
@@ -48,19 +48,19 @@
         border-radius: 50%;
         background-color: black;
     }
-
+    
     .homepage_userIcon {
         height: 1.5vw;
         width: 1.5vw;
         filter: invert(1);
     }
-
+    
     .homepage_logo {
         width: 12vw;
         height: 6vw;
         margin: 0vw 1.5vw;
     }
-
+    
     .homepage_navbar {
         background-color: white;
         position: fixed;
@@ -70,18 +70,18 @@
         display: flex;
         animation: navbar 3s ease-in-out forwards;
     }
-
+    
     .homepage_navbar ul {
         display: flex;
         margin-left: 17vw;
         margin-top: 0.3vw;
     }
-
+    
     .homepage_navbar ul li {
         list-style: none;
         padding: 2vw 0.5vw;
     }
-
+    
     .homepage_navbar ul li a {
         text-decoration: none;
         color: black;
@@ -89,43 +89,43 @@
         font-size: 1.2vw;
         padding: 0.7vw 1.4vw;
     }
-
+    
     .homepage_navbar ul li :hover {
         border-bottom: 2px solid black;
     }
-
+    
     .homepage_container {
         display: grid;
         grid-template-columns: 50% 50%;
     }
-
+    
     .homepage_containerImage {
         background: url("./image/background.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         animation: zoom 2s ease-in forwards;
     }
-
+    
     .homepage_sectionLeft {
         height: 49vw;
         animation: animate 2.5s ease-in-out forwards;
     }
-
+    
     .homepage_r {
         height: 49vw;
         animation: animate1 2.5s ease-in-out forwards;
     }
-
+    
     .homepage_sketch {
         height: 49vw;
         width: 100%;
     }
-
+    
     .homepage_sketch1 {
         height: 49vw;
         width: 100%;
     }
-
+    
     .homepage_name {
         font-size: 5vw;
         padding: 1vw;
@@ -147,11 +147,11 @@
         z-index: 1;
         text-align: center;
     }
-
+    
     .homepage_desc {
         font-size: 1vw;
     }
-
+    
     @keyframes navbar {
         from {
             transform: translateY(-10vw);
@@ -160,7 +160,7 @@
             transform: translateY(0);
         }
     }
-
+    
     @keyframes opaque {
         from {
             opacity: 0;
@@ -170,7 +170,7 @@
             visibility: visible;
         }
     }
-
+    
     @keyframes zoom {
         from {
             transform: scale(2);
@@ -179,7 +179,7 @@
             transform: scale(1);
         }
     }
-
+    
     @keyframes animate {
         from {
             transform: translateX(-50vw);
@@ -188,7 +188,7 @@
             transform: translateX(0);
         }
     }
-
+    
     @keyframes animate1 {
         from {
             transform: translateX(50vw);
@@ -197,7 +197,7 @@
             transform: translateX(0);
         }
     }
-
+    
     .homepage_catagoryHeading {
         text-align: center;
         margin-top: 8rem;
@@ -205,7 +205,7 @@
         color: #676871;
         font-family: sans-serif;
     }
-
+    
     .homepage_catagoryDesc {
         width: 50%;
         font-size: 1.8rem;
@@ -213,13 +213,13 @@
         text-align: center;
         margin-bottom: 2rem;
     }
-
+    
     .homepage_catagoryBox {
         display: flex;
         justify-content: center;
         text-align: center;
     }
-
+    
     .homepage_catagoryImageDiv {
         width: 22rem;
         height: 20rem;
@@ -228,12 +228,12 @@
         transition: 0.5s;
         position: relative;
     }
-
+    
     .homepage_componentImage {
         width: 100%;
         height: 100%;
     }
-
+    
     .homepage_imageText {
         width: 70%;
         font-size: 2.5rem;
@@ -247,56 +247,48 @@
         left: 3rem;
         transform: translateY(7.5rem);
     }
-
+    
     .homepage_imageText p {
         font-size: 1rem;
         font-weight: 600;
     }
-
+    
     .homepage_catagoryImageDiv:hover {
         filter: hue-rotate(180deg);
     }
-
+    
     .homepage_catagoryImageDiv:hover .homepage_imageText {
         opacity: 1;
     }
-
+    
     .homepage_catagorylink {
         text-align: center;
         margin-bottom: 3rem;
     }
-
+    
     .homepage_catagorylink a {
         text-decoration: none;
         color: black;
         padding: 1rem;
         transition: 0.3s;
     }
-
+    
     .homepage_catagorylink a:hover {
         background-color: rgb(189, 188, 188);
     }
-
-
-
-
     /* CSS for Footer  Starts */
-
-    body {
-        color: #ccc
-    }
-
+    
     .footer-widget p {
         margin-bottom: 27px;
     }
-
+    
     p {
         font-family: 'Nunito', sans-serif;
         font-size: 16px;
         color: white;
         line-height: 28px;
     }
-
+    
     .dk-footer {
         padding: 75px 0 0;
         background-color: #151414;
@@ -304,7 +296,7 @@
         z-index: 2;
     }
     /* Animation in Footer  starts*/
-
+    
     .animate-border {
         position: relative;
         display: block;
@@ -312,7 +304,7 @@
         height: 3px;
         background: #ff9e40;
     }
-
+    
     .animate-border:after {
         position: absolute;
         content: "";
@@ -325,7 +317,7 @@
         -webkit-animation: animborder 2s linear infinite;
         animation: animborder 2s linear infinite;
     }
-
+    
     @-webkit-keyframes animborder {
         0% {
             -webkit-transform: translateX(0px);
@@ -336,30 +328,29 @@
             transform: translateX(80px);
         }
     }
-
-
     /* Animation in Footer  ends*/
+    
     .dk-footer .contact-us {
         margin-top: 0;
         margin-bottom: 30px;
         padding-left: 80px;
     }
-
+    
     .dk-footer .contact-us .contact-info {
         margin-left: 50px;
     }
-
+    
     .dk-footer .contact-us.contact-us-last {
         margin-left: -80px;
     }
-
+    
     .dk-footer .contact-icon i {
         font-size: 24px;
         top: -15px;
         position: relative;
         color: #ff9e40;
     }
-
+    
     .dk-footer-box-info {
         position: absolute;
         top: -100px;
@@ -367,23 +358,23 @@
         padding: 40px;
         z-index: 2;
     }
-
+    
     .dk-footer-box-info .footer-social-link h3 {
         color: #fff;
         font-size: 24px;
         margin-bottom: 25px;
     }
-
+    
     .dk-footer-box-info .footer-social-link ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
     }
-
+    
     .dk-footer-box-info .footer-social-link li {
         display: inline-block;
     }
-
+    
     .dk-footer-box-info .footer-social-link a i {
         display: block;
         width: 40px;
@@ -395,39 +386,39 @@
         margin-right: 5px;
         color: #fff;
     }
-
+    
     .dk-footer-box-info .footer-social-link a i.fa-facebook {
         background-color: #3B5998;
     }
-
+    
     .dk-footer-box-info .footer-social-link a i.fa-twitter {
         background-color: #55ACEE;
     }
-
+    
     .dk-footer-box-info .footer-social-link a i.fa-youtube {
         background-color: #DD4B39;
     }
-
+    
     .dk-footer-box-info .footer-social-link a i.fa-linkedin {
         background-color: #0976B4;
     }
-
+    
     .dk-footer-box-info .footer-social-link a i.fa-instagram {
         background-color: #B7242A;
     }
-
+    
     .footer-info-text {
         margin: 26px 0 32px;
     }
-
+    
     .footer-left-widget {
         padding-left: 80px;
     }
-
+    
     .footer-widget .section-heading {
         margin-bottom: 35px;
     }
-
+    
     .footer-widget h3 {
         font-size: 24px;
         color: #fff;
@@ -437,7 +428,7 @@
         max-width: -moz-fit-content;
         max-width: fit-content;
     }
-
+    
     .footer-widget ul {
         width: 50%;
         float: left;
@@ -445,48 +436,50 @@
         margin: 0;
         padding: 0;
     }
-
+    
     .footer-widget li {
         margin-bottom: 18px;
     }
-
+    
     .footer-widget p {
         margin-bottom: 27px;
     }
-
+    
     .footer-widget a {
         color: #878787;
         -webkit-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s;
     }
-
+    
     .footer-widget a:hover {
         color: #ff9e40;
     }
-
+    
     .footer-widget:after {
         content: "";
         display: block;
         clear: both;
     }
-
+    
     .dk-footer-form {
         position: relative;
     }
-
+    
     .dk-footer-form input[type=email] {
         padding: 23px 28px;
         border-radius: 50px;
         background: #2E2E2E;
         border: 1px solid #2E2E2E;
     }
+    
     .dk-footer-form input:focus {
         background-color: white;
         font-size: 14px;
         font-weight: bold;
         color: black;
     }
+    
     .dk-footer-form input::-webkit-input-placeholder,
     .dk-footer-form input::-moz-placeholder,
     .dk-footer-form input:-ms-input-placeholder,
@@ -496,8 +489,7 @@
         background-color: white;
         font-size: 14px;
     }
-
-
+    
     .dk-footer-form button[type=submit] {
         position: absolute;
         top: 0;
@@ -509,18 +501,16 @@
         background: #ff9e40;
         color: #fff;
     }
-
+    
     .dk-footer-form button:hover {
         cursor: pointer;
     }
-
-
     /* ==========================
 
        Contact
 
     =============================*/
-
+    
     .contact-us {
         position: relative;
         z-index: 2;
@@ -536,35 +526,35 @@
         -ms-flex-align: center;
         align-items: center;
     }
-
+    
     .contact-icon {
         position: absolute;
     }
-
+    
     .contact-icon i {
         font-size: 36px;
         top: -5px;
         position: relative;
         color: #ff9e40;
     }
-
+    
     .contact-info {
         margin-left: 75px;
         color: #fff;
     }
-
+    
     .contact-info h3 {
         font-size: 20px;
         color: #fff;
         margin-bottom: 0;
     }
-
+    
     .copyright {
         padding: 28px 0;
         margin-top: 1%;
         background-color: #202020;
     }
-
+    
     .copyright span,
     .copyright a {
         color: #878787;
@@ -572,6 +562,4 @@
         -o-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
-
     /* CSS for Footer ends here */
