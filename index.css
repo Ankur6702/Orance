@@ -7,7 +7,7 @@
     
     .homepage_dropdownButton {
         border: none;
-        background-color: black;
+        background-color: #FF4500;
     }
     
     .homepage_dropdownButton:hover {
@@ -41,17 +41,17 @@
     }
     
     .homepage_right {
-        padding: 0.3vw;
+        padding: 0.5vw;
         position: absolute;
-        top: 1.5vw;
-        right: 2vw;
+        top: 2vw;
+        right: 3vw;
         border-radius: 50%;
-        background-color: black;
+        background-color: #FF4500;
     }
     
     .homepage_userIcon {
-        height: 1.5vw;
-        width: 1.5vw;
+        height: 1.2vw;
+        width: 1.3vw;
         filter: invert(1);
     }
     
@@ -59,6 +59,7 @@
         width: 12vw;
         height: 6vw;
         margin: 0vw 1.5vw;
+        transform: translateY(0.4vw);
     }
     
     .homepage_navbar {
@@ -73,8 +74,7 @@
     
     .homepage_navbar ul {
         display: flex;
-        margin-left: 17vw;
-        margin-top: 0.3vw;
+        transform: translate(17vw, 0.6vw);
     }
     
     .homepage_navbar ul li {
@@ -91,7 +91,8 @@
     }
     
     .homepage_navbar ul li :hover {
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid #ff4500;
+        color: #FF4500;
     }
     
     .homepage_container {
@@ -302,7 +303,7 @@
         display: block;
         width: 115px;
         height: 3px;
-        background: #ff9e40;
+        background: #ff4500;
     }
     
     .animate-border:after {
@@ -348,7 +349,7 @@
         font-size: 24px;
         top: -15px;
         position: relative;
-        color: #ff9e40;
+        color: #ff4500;
     }
     
     .dk-footer-box-info {
@@ -407,6 +408,14 @@
         background-color: #B7242A;
     }
     
+    .dk-footer-box-info .footer-social-link a {
+        text-decoration: none;
+    }
+    
+    .dk-footer-box-info .footer-social-link a i:hover {
+        opacity: 0.9;
+    }
+    
     .footer-info-text {
         margin: 26px 0 32px;
     }
@@ -450,10 +459,11 @@
         -webkit-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s;
+        text-decoration: none;
     }
     
     .footer-widget a:hover {
-        color: #ff9e40;
+        color: #ff4500;
     }
     
     .footer-widget:after {
@@ -497,13 +507,14 @@
         padding: 12px 24px 10px 17px;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
-        border: 1px solid #ff9e40;
-        background: #ff9e40;
+        border: 1px solid #ff4500;
+        background: #ff4500;
         color: #fff;
     }
     
     .dk-footer-form button:hover {
         cursor: pointer;
+        opacity: 0.9;
     }
     /* ==========================
 
@@ -535,7 +546,7 @@
         font-size: 36px;
         top: -5px;
         position: relative;
-        color: #ff9e40;
+        color: #ff4500;
     }
     
     .contact-info {
