@@ -20,7 +20,7 @@
         background-color: white;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
-        transform: translateX(-4vw) translateY(0.5vw);
+        transform: translateX(-4vw) translateY(0.6vw);
         border-radius: 1vw;
     }
     
@@ -63,7 +63,6 @@
     }
     
     .homepage_navbar {
-        background-color: white;
         position: fixed;
         width: 100%;
         top: 0;
@@ -93,6 +92,10 @@
     .homepage_navbar ul li :hover {
         border-bottom: 2px solid #ff4500;
         color: #FF4500;
+    }
+    
+    .homepage_navbar_colour {
+        background-color: white;
     }
     
     .homepage_container {
