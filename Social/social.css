@@ -34,6 +34,7 @@
     height: 90vh;
     position: static;
     margin-top: 10vh;
+    overflow: hidden;
 }
 
 .social_right {
@@ -45,8 +46,69 @@
     border-left: 2px solid #f0f2f5;
     margin-top: 10vh;
     overflow: hidden;
+    padding: 2vw;
 }
 
 .list-group-item {
     margin: 2%;
+}
+
+.social_mid {
+    margin-top: 14vh;
+    color: black;
+}
+
+.post {
+    background-color: #f0f2f5;
+    border-radius: 1vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.post form input{
+    width: 100%;
+    border: 2px solid #f0f2f5;
+    border-radius: 1vw;
+    padding: 15px;
+    margin-top: 2vw;
+}
+
+.post_button {
+    margin: 1vw 1vw;
+    padding: 0.3vw 0.8vw;
+    /* transform: translateX(32vw); */
+    position: absolute;
+    right: 1.5vw;
+}
+
+.post_iconify {
+    width: 20px;
+    height: 20px;
+    margin: 1.5vw;
+}
+
+.link {
+    border: none;
+}
+
+.social_leftSection {
+    padding: 1vw;
+    margin: 1vw;
+    background-color: white;
+    border-radius: 1vw;
+    font-size: 1.1rem;
+}
+
+.social_leftSection a {
+    text-decoration: none;
+    color: black;
+}
+
+.social_leftSection:hover {
+    background-color: #f8f9fa;
+}
+
+.iconify_icon {
+    font-size: 1.5vw;
+    margin: 0 1vw;
 }
