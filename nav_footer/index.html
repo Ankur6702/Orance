@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>NavBar 2</title>
+    <title>Orance</title>
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="../favicon.ico" rel="icon">
 
     <!--vendor css -->
     <link rel="stylesheet" href="../bootstrap.min.css">
@@ -26,36 +26,6 @@
     <div class="super_container">
         <!-- Header -->
         <header class="tb-header">
-            <!-- Top Bar Starts Here which contains mobile and email on top section-->
-            <div class="top_bar">
-                <div class="tb-container">
-                    <!-- below is the code for 1 row and 1 column for mail and phone number  -->
-                    <div class="tb-row">
-                        <!-- here I specify the row -->
-                        <div class="tb-col tb-d-flex tb-flex-row">
-                            <!-- Here I speficy the one column only -->
-                            <div class="top_bar_contact_item">
-                                <!-- the phone number item -->
-                                <div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png" alt=""></div>+91 234241413
-                            </div>
-                            <div class="top_bar_contact_item">
-                                <!-- the email item -->
-                                <div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">service@orance.com</a>
-                            </div>
-                            <div class="top_bar_content tb-ml-auto">
-                                <!--top bar register and sigin-->
-                                <div class="top_bar_user">
-                                    <!-- icon for register and signin -->
-                                    <div class="user_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg" alt=""></div>
-                                    <div><a href="#">Register</a></div>
-                                    <div><a href="#">Sign in</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Top Bar ends Here which contains mobile and email on top section-->
             <!-- Navigation Bar which has logo and search bar -->
             <div class="header_main">
                 <!-- header main is used so that it will not affected when you use it in your website -->
@@ -85,8 +55,14 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <!-- search bar code ends here  -->
+                        <div class="tb-col tb-col-sm-3 tb-col-md-auto">
+                        <div class="regis-log-btn">
+                          <button class="tb-btn register_login_btn tb-btn-outline-secondary tb-btn-large " data-toggle="modal" data-target="#exampleModal">Connect</button>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,51 +77,34 @@
                                 <div class="main_nav_menu">
                                     <!-- it starts here subnavigation bar tabs for categories-->
                                     <ul class="standard_dropdown main_nav_dropdown">
-                                        <li><a href="/index.html">Home<i class=""></i></a></li>
+                                        <li><a href="/index.html"><i class="fas ico-nav fa-home"></i>Home</a></li>
                                         <!--Home tab -->
-                                        <li class="hassubs"> <a href="#">Paintings<i class=""></i></a>
+                                        <li class="hassubs"> <a href="#"><i class="fab ico-nav fa-artstation"></i>Categories<i class=""></i></a>
                                             <!--second tab with sub categories-->
                                             <ul>
-                                                <li> <a href="#">Item 1<i class=""></i></a>
+                                                <li><a href="#"><i class="fas ico-nav fa-paint-brush"></i> Paintings</a>
                                                     <ul>
-                                                        <li><a href="#">SubItem 1<i class=""></i></a></li>
-                                                        <li><a href="#">SubItem 2<i class=""></i></a></li>
-                                                        <li><a href="#">SubItem 3<i class=""></i></a></li>
+                                                        <li><a href="#"><i class="fas ico-nav fa-magnet"></i>Abstract<i class=""></i></a></li>
+                                                        <li><a href="#"><i class="fas ico-nav fa-female"></i>Madhubani<i class=""></i></a></li>
+                                                        <li><a href="#"><i class="fas ico-nav fa-chess"></i>Stone<i class=""></i></a></li>
+                                                        <li><a href="#"><i class="fas ico-nav fa-border-all"></i>Wall<i class=""></i></a></li>
+                                                        <li><a href="#"><i class="fas ico-nav fa-cube"></i>3 D<i class=""></i></a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="#">Item 1<i class=""></i></a></li>
-                                                <li><a href="#">Item 2<i class=""></i></a></li>
-                                                <li><a href="#">Item 3<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fab ico-nav fa-sketch"></i> Sketches<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fas ico-nav fa-portrait"></i> Portrait<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fas ico-nav fa-star-of-life"></i> Still Life<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fas ico-nav fa-star-of-life"></i> Landscape<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fas ico-nav fa-palette"></i> Doodle<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fas ico-nav fa-brush"></i> Sculptures<i class=""></i></a></li>
+                                                <li><a href="#"><i class="fas ico-nav fa-dove"></i> Origami<i class=""></i></a></li>
                                             </ul>
                                         </li>
-                                        <li class="hassubs"> <a href="#">Featured<i class=""></i></a>
-                                            <!--third tab with sub categories-->
-                                            <ul>
-                                                <li> <a href="#">Item 3<i class=""></i></a>
-                                                    <ul>
-                                                        <li><a href="#">Item 1<i class=""></i></a></li>
-                                                        <li><a href="#">Item 2<i class=""></i></a></li>
-                                                        <li><a href="#">Item 3<i class=""></i></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Item 1<i class=""></i></a></li>
-                                                <li><a href="#">Item 2<i class=""></i></a></li>
-                                                <li><a href="#">Item 3<i class=""></i></a></li>
-                                            </ul>
+                                        <li class="hassubs"> <a href="#"><i class="fas ico-nav fa-gem"></i>Elite Profiles<i class=""></i></a>
                                         </li>
-                                        <li class="hassubs"> <a href="#">Pages<i class=""></i></a>
-                                            <!--fourth tab with sub categories-->
-                                            <ul>
-                                                <li><a href="#">Page 1<i class=""></i></a></li>
-                                                <li><a href="#">Page 2<i class=""></i></a></li>
-                                                <li><a href="#">Page 3<i class=""></i></a></li>
-                                                <li><a href="#">Page 4<i class=""></i></a></li>
-                                            </ul>
+                                        <li class="hassubs"> <a href="#"><i class="fas ico-nav fa-users"></i>Social Page<i class=""></i></a>
                                         </li>
-                                        <li><a href="#">Blog<i class=""></i></a></li>
-                                        <!--fivth tab with sub categories-->
-                                        <li><a href="#">Contact<i class=""></i></a></li>
-                                        <!--sixth tab with sub categories-->
+                                        <li><a href="#"><i class="fas ico-nav fa-address-book"></i>Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
