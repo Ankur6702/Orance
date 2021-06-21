@@ -1,228 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="../lightgallery/dist/css/lightgallery.css" rel="stylesheet">
-    <link rel="stylesheet" href="gallery.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="../lightgallery/dist/css/lightgallery.css" rel="stylesheet" />
+    <link rel="stylesheet" href="gallery.css" />
     <title>Image Gallery</title>
     <!-- do not remove this -->
-    <link rel="stylesheet" href="/bootstrap.min.css">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/bootstrap.min.css" />
+    <link rel="stylesheet" href="/index.css" />
+
+    <link rel="stylesheet" href="../bootstrap.min.css" />
 
     <!-- For Icons -->
-    <script src="https://kit.fontawesome.com/c4d33982c0.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/c4d33982c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
 
+
+        <nav>
+              <!-- Header -->
+              <header class="tb-header">
+                  <!-- Navigation Bar which has logo and search bar -->
+                  <div class="header_main">
+                      <!-- header main is used so that it will not affected when you use it in your website -->
+                      <div class="tb-container">
+                          <div class="tb-row">
+                              <!-- single row is defined here -->
+                              <div class="tb-col-lg-2 tb-col-sm-3 tb-col-3 tb-order-1">
+                                  <!-- first column for logo of website -->
+                                  <div class="logo_container">
+                                      <!-- logo code is here -->
+                                      <div class="logo">
+                                          <a href="/index.html"><img class="logo-img" src="../logo_horizontal.png" alt=""></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- second column is from here that is for search bar -->
+                              <div class="tb-col-lg-6 col-12 tb-order-lg-2 tb-order-3 tb-text-lg-left tb-text-right">
+                                  <div class="header_search">
+                                      <div class="header_search_content">
+                                          <div class="header_search_form_container">
+                                              <form action="#" class="header_search_form tb-clearfix"> <input type="search" required="required" class="header_search_input" placeholder="Search arts...">
+                                                  <div class="custom_dropdown" style="display: none;">
+                                                  </div> <button type="submit" class="header_search_button trans_300" value="Submit"><img
+                                src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png"
+                                alt=""></button>
+                                              </form>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                              </div>
+                              <!-- search bar code ends here  -->
+                              <div class="tb-col tb-col-sm-3 tb-col-md-auto">
+                              <div class="regis-log-btn">
+                                <button class="tb-btn regis-btn tb-btn-outline-secondary tb-btn-large " style="background-color: #ff9e40; color: black;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);">Connect</button>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- sub navigation bar for dropdown categories and categories -->
+                  <nav class="main_nav">
+                      <div class="tb-container">
+                          <div class="tb-row">
+                              <!-- single row is used -->
+                              <div class="tb-col">
+                                  <!-- single column is enough to handle all tabs for categories -->
+                                  <div class="main_nav_content tb-d-flex tb-flex-row">
+                                      <div class="main_nav_menu">
+                                          <!-- it starts here subnavigation bar tabs for categories-->
+                                          <ul class="standard_dropdown main_nav_dropdown">
+                                              <li><a href="/index.html"><i class="fas ico-nav fa-home"></i>Home</a></li>
+                                              <!--Home tab -->
+                                              <li class="hassubs"> <a href="#"><i class="fab ico-nav fa-artstation"></i>Categories<i class=""></i></a>
+                                                  <!--second tab with sub categories-->
+                                                  <ul>
+                                                      <li><a href="#"><i class="fas ico-nav fa-paint-brush"></i> Paintings</a>
+                                                          <ul>
+                                                              <li><a href="#"><i class="fas ico-nav fa-magnet"></i>Abstract<i class=""></i></a></li>
+                                                              <li><a href="#"><i class="fas ico-nav fa-female"></i>Madhubani<i class=""></i></a></li>
+                                                              <li><a href="#"><i class="fas ico-nav fa-chess"></i>Stone<i class=""></i></a></li>
+                                                              <li><a href="#"><i class="fas ico-nav fa-border-all"></i>Wall<i class=""></i></a></li>
+                                                              <li><a href="#"><i class="fas ico-nav fa-cube"></i>3 D<i class=""></i></a></li>
+                                                          </ul>
+                                                      </li>
+                                                      <li><a href="#"><i class="fab ico-nav fa-sketch"></i> Sketches<i class=""></i></a></li>
+                                                      <li><a href="#"><i class="fas ico-nav fa-portrait"></i> Portrait<i class=""></i></a></li>
+                                                      <li><a href="#"><i class="fas ico-nav fa-star-of-life"></i> Still Life<i class=""></i></a></li>
+                                                      <li><a href="#"><i class="fas ico-nav fa-star-of-life"></i> Landscape<i class=""></i></a></li>
+                                                      <li><a href="#"><i class="fas ico-nav fa-palette"></i> Doodle<i class=""></i></a></li>
+                                                      <li><a href="#"><i class="fas ico-nav fa-brush"></i> Sculptures<i class=""></i></a></li>
+                                                      <li><a href="#"><i class="fas ico-nav fa-dove"></i> Origami<i class=""></i></a></li>
+                                                  </ul>
+                                              </li>
+                                              <li class="hassubs"> <a href="#"><i class="fas ico-nav fa-gem"></i>Elite Profiles<i class=""></i></a>
+                                              </li>
+                                              <li class="hassubs"> <a href="#"><i class="fas ico-nav fa-users"></i>Social Page<i class=""></i></a>
+                                              </li>
+                                              <li><a href="#"><i class="fas ico-nav fa-address-book"></i>Contact</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </nav>
+                  <!-- sub navigation bar for dropdown categories and categories ends here-->
+                  </div>
+                </header>
+                              </nav>
     <h1>Abstract Painting</h1>
 
     <div class="gallery" id="lightgallery">
-
-        <a href="img/abstract1.jpg">
-            <img src="img/abstract1.jpg" alt="">
-        </a>
-        <a href="img/abstract2.jpg">
-            <img src="img/abstract2.jpg" alt="">
-        </a>
-        <a href="img/abstract3.jpg">
-            <img src="img/abstract3.jpg" alt="">
-        </a>
-        <a href="img/abstract4.jpg">
-            <img src="img/abstract4.jpg" alt="">
-        </a>
-        <a href="img/abstract5.jpg">
-            <img src="img/abstract6.jpg" alt="">
-        </a>
-        <a href="img/abstract7.jpg">
-            <img src="img/abstract7.jpg" alt="">
-        </a>
-        <a href="img/abstract8.jpg">
-            <img src="img/abstract8.jpg" alt="">
-        </a>
-        <a href="img/abstract6.jpg">
-            <img src="img/abstract6.jpg" alt="">
-        </a>
-        <a href="img/abstract9.jpg">
-            <img src="img/abstract9.jpg" alt="">
-        </a>
-
+      <a href="img/abstract1.jpg">
+        <img src="img/abstract1.jpg" alt="" />
+      </a>
+      <a href="img/abstract2.jpg">
+        <img src="img/abstract2.jpg" alt="" />
+      </a>
+      <a href="img/abstract3.jpg">
+        <img src="img/abstract3.jpg" alt="" />
+      </a>
+      <a href="img/abstract4.jpg">
+        <img src="img/abstract4.jpg" alt="" />
+      </a>
+      <a href="img/abstract5.jpg">
+        <img src="img/abstract6.jpg" alt="" />
+      </a>
+      <a href="img/abstract7.jpg">
+        <img src="img/abstract7.jpg" alt="" />
+      </a>
+      <a href="img/abstract8.jpg">
+        <img src="img/abstract8.jpg" alt="" />
+      </a>
+      <a href="img/abstract6.jpg">
+        <img src="img/abstract6.jpg" alt="" />
+      </a>
+      <a href="img/abstract9.jpg">
+        <img src="img/abstract9.jpg" alt="" />
+      </a>
     </div>
 
     <!-- footer section starts here  -->
-    <footer id="dk-footer" class="dk-footer">
+    <div class="footer-css">
+      <footer id="dk-footer" class="dk-footer">
         <div class="tb-container">
-            <div class="tb-row">
-                <!-- Above section of copyright section -->
-                <div class="tb-col-md-12 tb-col-lg-4">
-                    <div class="dk-footer-box-info">
-                        <a href="index.html" class="footer-logo">
-                            <!-- footer logo -->
-                            <img src="https://cdn.pixabay.com/photo/2017/06/10/22/58/composing-2391033_1280.jpg"
-                                alt="footer_logo" class="tb-img-fluid">
-                        </a>
-                        <p class="footer-info-text">
-                            Connecting Artists...
-                        </p>
-                        <div class="footer-social-link">
-                            <!-- social icons -->
-                            <h3>Follow us</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- End Social link -->
-                    </div>
-                    <!-- End Footer info -->
+          <div class="tb-row">
+            <!-- Above section of copyright section -->
+            <div class="tb-col-md-12 tb-col-lg-4">
+              <div class="dk-footer-box-info">
+                <a href="index.html" class="footer-logo">
+                  <!-- footer logo -->
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/06/10/22/58/composing-2391033_1280.jpg"
+                    alt="footer_logo"
+                    class="tb-img-fluid"
+                  />
+                </a>
+                <p class="footer-info-text">
+                  Connecting Artists...
+                </p>
+                <div class="footer-social-link">
+                  <!-- social icons -->
+                  <h3>Follow us</h3>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <!-- End Col -->
-                <!-- Address and Mobile Number Column -->
-                <div class="tb-col-md-12 tb-col-lg-8">
-                    <div class="tb-row">
-                        <div class="tb-col-md-6">
-                            <div class="contact-us">
-                                <div class="contact-icon">
-                                    <i class="fa fa-map-o" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>Jaipur India</h3>
-                                    <p></p>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                        <div class="tb-col-md-6">
-                            <div class="contact-us contact-us-last">
-                                <div class="contact-icon">
-                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>+91 82794 43413</h3>
-                                    <p>Give us a call</p>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Contact Row -->
-                    <div class="tb-row">
-                        <!-- Other and Useful link section -->
-                        <div class="tb-col-md-12 tb-col-lg-6">
-                            <div class="footer-widget footer-left-widget">
-                                <div class="section-heading">
-                                    <h3>Useful Links</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <a href="#">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Terms</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Privacy Policy</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- End Footer Widget -->
-                        </div>
-                        <!-- End col -->
-                        <div class="tb-col-md-12 tb-col-lg-6">
-                            <div class="footer-widget">
-                                <div class="section-heading">
-                                    <h3>Subscribe</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <p>
-                                    <!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                                    Get the latest updates
-                                </p>
-                                <form action="#">
-                                    <div class="tb-form-row">
-                                        <div class="tb-col dk-footer-form">
-                                            <input type="email" class="tb-form-control" placeholder="Email Address">
-                                            <button type="submit">
-                                                <i class="fa fa-send"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- End form -->
-                            </div>
-                            <!-- End footer widget -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Row -->
-                </div>
-                <!-- End Col -->
+                <!-- End Social link -->
+              </div>
+              <!-- End Footer info -->
             </div>
-            <!-- End Widget Row -->
+            <!-- End Col -->
+            <!-- Address and Mobile Number Column -->
+            <div class="tb-col-md-12 tb-col-lg-8">
+              <div class="tb-row">
+                <div class="tb-col-md-6">
+                  <div class="contact-us">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-o" aria-hidden="true"></i>
+                    </div>
+                    <!-- End contact Icon -->
+                    <div class="contact-info">
+                      <h3>Jaipur India</h3>
+                      <p></p>
+                    </div>
+                    <!-- End Contact Info -->
+                  </div>
+                  <!-- End Contact Us -->
+                </div>
+                <!-- End Col -->
+                <div class="tb-col-md-6">
+                  <div class="contact-us contact-us-last">
+                    <div class="contact-icon">
+                      <i
+                        class="fa fa-volume-control-phone"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <!-- End contact Icon -->
+                    <div class="contact-info">
+                      <h3>+91 82794 43413</h3>
+                      <p>Give us a call</p>
+                    </div>
+                    <!-- End Contact Info -->
+                  </div>
+                  <!-- End Contact Us -->
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Contact Row -->
+              <div class="tb-row">
+                <!-- Other and Useful link section -->
+                <div class="tb-col-md-12 tb-col-lg-6">
+                  <div class="footer-widget footer-left-widget">
+                    <div class="section-heading">
+                      <h3>Useful Links</h3>
+                      <span class="animate-border border-black"></span>
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="#">About us</a>
+                      </li>
+                      <li>
+                        <a href="#">Services</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End Footer Widget -->
+                </div>
+                <!-- End col -->
+                <div class="tb-col-md-12 tb-col-lg-6">
+                  <div class="footer-widget">
+                    <div class="section-heading">
+                      <h3>Subscribe</h3>
+                      <span class="animate-border border-black"></span>
+                    </div>
+                    <p>
+                      <!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                      Get the latest updates
+                    </p>
+                    <form action="#">
+                      <div class="tb-form-row">
+                        <div class="tb-col dk-footer-form">
+                          <input
+                            type="email"
+                            class="tb-form-control"
+                            placeholder="Email Address"
+                          />
+                          <button type="submit">
+                            <i class="fa fa-send"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- End form -->
+                  </div>
+                  <!-- End footer widget -->
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Widget Row -->
         </div>
         <!-- End Contact Container -->
 
-
         <div class="copyright">
-            <div class="tb-container">
-                <div class="tb-row">
-                    <div class="tb-col-md-6">
-                        <span>Copyright © 2021, All Right Reserved Orance</span>
-                    </div>
-                </div>
-                <!-- End Row -->
+          <div class="tb-container">
+            <div class="tb-row">
+              <div class="tb-col-md-6">
+                <span>Copyright © 2021, All Right Reserved Orance</span>
+              </div>
             </div>
-            <!-- End Copyright Container -->
+            <!-- End Row -->
+          </div>
+          <!-- End Copyright Container -->
         </div>
         <!-- End Copyright -->
-    </footer>
-
+      </footer>
+    </div>
 
     <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
     <script>
-        lightGallery(document.getElementById('lightgallery'));
+      lightGallery(document.getElementById("lightgallery"));
     </script>
-
-</body>
-
+  </body>
 </html>
