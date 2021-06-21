@@ -121,6 +121,8 @@
     padding: 2vw;
     border-left: 2px solid #f8f9fa;
     border-top: 2px solid #f8f9fa;
+    border-bottom: 2px solid #f8f9fa;
+    position: relative;
 }
 
 .feedProfileImage {
@@ -144,4 +146,32 @@
 
 .feedContent {
     margin-bottom: 1vw;
+}
+
+.feedReact {
+    position: relative;
+    display: flex;
+    transform: translateY(0.5vw);
+}
+
+.feedItems a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 2vw;
+    transform: translateY(2vw);
+}
+
+.feedLike {
+    margin-top: 1vw;
+}
+
+.feedLikes a, .feedComments a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.feedComments a{
+    margin-left: 10vw;
 }
