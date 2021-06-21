@@ -34,19 +34,18 @@
     height: 90vh;
     position: static;
     margin-top: 10vh;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .social_right {
     background-color: #ffffff;
-    padding: 1%;
     text-align: center;
     height: 90vh;
-    position: static;
     border-left: 2px solid #f0f2f5;
     margin-top: 10vh;
-    overflow: hidden;
     padding: 2vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .list-group-item {
@@ -54,8 +53,12 @@
 }
 
 .social_mid {
-    margin-top: 14vh;
+    margin-top: 11vh;
     color: black;
+    padding: 2vw;
+    height: 89vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .post {
@@ -111,4 +114,34 @@
 .iconify_icon {
     font-size: 1.5vw;
     margin: 0 1vw;
+}
+
+.socialFeed {
+    margin-top: 3vw;
+    padding: 2vw;
+    border-left: 2px solid #f8f9fa;
+    border-top: 2px solid #f8f9fa;
+}
+
+.feedProfileImage {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f8f9fa;
+    border-radius: 50%;
+}
+
+.feedUserName a{
+    text-decoration: none;
+    color: black;
+}
+
+.feedPostTime {
+    color: gray;
+    font-size: 0.9rem;
+    margin-top: -25px;
+    margin-left: 44px;
+}
+
+.feedContent {
+    margin-bottom: 1vw;
 }
