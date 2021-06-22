@@ -10,8 +10,8 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 90%;
-  margin: 0 auto;
-  padding-bottom: 50px;
+  margin: 10px auto;
+  padding-bottom: 80px;
 }
 
 .gallery a {
@@ -40,7 +40,6 @@ h1 {
 }
 
 /* NavBar CSS */
-@charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900");
 body {
   font-family: "Rubik", sans-serif;
