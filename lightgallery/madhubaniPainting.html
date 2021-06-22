@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="../image/favicon.ico">
-  <link rel="stylesheet" href="category.css" />
-  <style type="text/css"></style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="../lightgallery/dist/css/lightgallery.css" rel="stylesheet" />
+  <link rel="stylesheet" href="gallery.css" />
+  <title>Image Gallery</title>
+  <!-- do not remove this -->
+  <link rel="stylesheet" href="/bootstrap.min.css" />
+  <link rel="stylesheet" href="/index.css" />
+
   <link rel="stylesheet" href="../bootstrap.min.css" />
+
   <!-- For Icons -->
   <script src="https://kit.fontawesome.com/c4d33982c0.js" crossorigin="anonymous"></script>
-
-  <title>Categories</title>
 </head>
 
-
 <body>
+
 
   <nav>
     <!-- Header -->
@@ -118,168 +123,38 @@
     </header>
   </nav>
 
-  <h1>Categories</h1>
+  <h1>Madhubani Painting</h1>
 
-  <div class="main">
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/abstract_painting.jpg" />
-      </div>
-      <div class="title">
-        <h1>Abstract Painting</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/abstract.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/sketch.jpg" />
-      </div>
-      <div class="title">
-        <h1>Sketches</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/sketch.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/portrait.jpeg" />
-      </div>
-      <div class="title">
-        <h1>Portrait</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/portrait.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/still_life.jpg" />
-      </div>
-      <div class="title">
-        <h1>Still Life</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/stillLife.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/madubani_painting.jpg" />
-      </div>
-      <div class="title">
-        <h1>Madhubani Painting</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/madhubaniPainting.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/stone_paintings.jpg" />
-      </div>
-      <div class="title">
-        <h1>Stone Painting</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/stonePainting.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/wall_paintings.jpg" />
-      </div>
-      <div class="title">
-        <h1>Wall Painting</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/wallPainting.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/landscape.jpg" />
-      </div>
-      <div class="title">
-        <h1>Landscape</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/landscape.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/doodle.jpg" />
-      </div>
-      <div class="title">
-        <h1>Doodle</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/doodle.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/sculptures.jpg" />
-      </div>
-      <div class="title">
-        <h1>Sculptures</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/sculptures.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/3d_painting.jpg" />
-      </div>
-      <div class="title">
-        <h1>3D Painting</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/3dPainting.html"><button>Show More...</button></a>
-      </div>
-    </div>
-    <!--cards -->
-
-    <div class="card">
-      <div class="image">
-        <img src="image/origami.jpg" />
-      </div>
-      <div class="title">
-        <h1>Origami</h1>
-      </div>
-      <div class="des">
-        <a href="../lightgallery/origami.html"><button>Show More...</button></a>
-      </div>
-    </div>
+  <div class="gallery" id="lightgallery">
+    <a href="img/abstract1.jpg">
+      <img src="img/abstract1.jpg" alt="" />
+    </a>
+    <a href="img/abstract2.jpg">
+      <img src="img/abstract2.jpg" alt="" />
+    </a>
+    <a href="img/abstract3.jpg">
+      <img src="img/abstract3.jpg" alt="" />
+    </a>
+    <a href="img/abstract4.jpg">
+      <img src="img/abstract4.jpg" alt="" />
+    </a>
+    <a href="img/abstract5.jpg">
+      <img src="img/abstract6.jpg" alt="" />
+    </a>
+    <a href="img/abstract7.jpg">
+      <img src="img/abstract7.jpg" alt="" />
+    </a>
+    <a href="img/abstract8.jpg">
+      <img src="img/abstract8.jpg" alt="" />
+    </a>
+    <a href="img/abstract6.jpg">
+      <img src="img/abstract6.jpg" alt="" />
+    </a>
+    <a href="img/abstract9.jpg">
+      <img src="img/abstract9.jpg" alt="" />
+    </a>
   </div>
 
-  <!-- Footer is here -->
   <!-- footer section starts here  -->
   <div class="footer-css">
     <footer id="dk-footer" class="dk-footer">
@@ -441,6 +316,14 @@
       <!-- End Copyright -->
     </footer>
   </div>
+
+  <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+  <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+  <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+  <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+  <script>
+    lightGallery(document.getElementById("lightgallery"));
+  </script>
 </body>
 
 </html>
