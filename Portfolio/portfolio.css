@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    overflow: hidden;
+}
+
+body {
+    background-color: #eeeff0;
+}
+
+.heading {
+    font-size: 1.7vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+
+.box {
+    padding: 1vw;
+    margin: 0.5vw;
+    background-color: white;
+}
+
+.menu {
+    grid-row: 1/3;
+    background-color: #0161c0;
+    color: white;
+    height: 48vw;
+    position: relative;
+}
+
+.image {
+    height: 9vw;
+    width: 9vw;
+    border-radius: 50%;
+}
+
+.detail {
+    text-align: center;
+}
+
+.name {
+    font-size: 1.8vw;
+}
+
+.desc {
+    font-size: 1vw;
+    margin-top: 0.3vw;
+}
+
+.contButton {
+    font-size: 1.1vw;
+    margin-top: 0.6vw;
+    border: 0.12vw solid white;
+    padding: 0.3vw 0.6vw;
+    border-radius: 1vw;
+}
+
+.contButton:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.home {
+    text-align: center;
+    padding: 1vw;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    background-color: #eeeff0;
+    padding: 0.7vw 1vw;
+    border-radius: 1vw;
+}
+
+.home a:hover {
+    background-color: white;
+}
+
+.innerBox {
+    padding: 1vw;
+}
+
+.information {
+    grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: #eeeff0;
+}
+
+.academic {
+    grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 35% 35% 30%;
+    background-color: #eeeff0;
+}
+
+.personal {
+    margin-bottom: 1vw;
+    background-color: white;
+}
+
+.contact {
+    background-color: white;
+}
+
+.education {
+    margin-bottom: 1vw;
+    background-color: white;
+}
+
+.project {
+    margin-bottom: 1vw;
+    background-color: white;
+}
+
+.skill {
+    background-color: white;
+}
+
+.det {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.head {
+    padding: 1vw;
+}
+
+.social {
+    margin-top: 2vw;
+}
+
+.social ul li {
+    list-style: none;
+    font-size: 2vw;
+    padding: 1vw;
+    margin: 0.5vw 6.3vw;
+}
+
+.social ul li a {
+    color: white;
+    margin: 0 auto;
+}
+
+.progress {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.round {
+    padding: 1.4vw;
+    width: 5vw;
+    border-right: 4px solid #0161c0;
+    border-bottom: 4px solid #0161c0;
+    border-radius: 50%;
+    margin: 1.5vw auto;
+}
+
+.credits {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.prdetails {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.prdetails p {
+    padding: 1vw;
+    margin: 0.5vw;
+    font-size: 1.2vw;
+    background-color: #eeeff0;
+    text-align: center;
+}
+
+.sk {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sk p {
+    padding: 1vw;
+    margin: 0 1vw;
+}
