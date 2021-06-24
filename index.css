@@ -103,64 +103,6 @@ body {
     background-color: white;
 }
 
-.homepage_container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.homepage_containerImage {
-    background: url("./image/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    animation: zoom 2s ease-in forwards;
-}
-
-.homepage_sectionLeft {
-    height: 49vw;
-    animation: animate 2.5s ease-in-out forwards;
-}
-
-.homepage_r {
-    height: 49vw;
-    animation: animate1 2.5s ease-in-out forwards;
-}
-
-.homepage_sketch {
-    height: 49vw;
-    width: 100%;
-}
-
-.homepage_sketch1 {
-    height: 49vw;
-    width: 100%;
-}
-
-.homepage_name {
-    font-size: 5vw;
-    padding: 1vw;
-    border-radius: 1vw;
-    /* background-color: black; */
-    background: rgba( 0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-    backdrop-filter: blur( 9.0px);
-    -webkit-backdrop-filter: blur( 1.5px);
-    border-radius: 1vw;
-    border: 1px solid rgba( 255, 255, 255, 0.18);
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    top: 23vw;
-    left: 40%;
-    animation: opaque 1s 2.5s ease-in-out forwards;
-    visibility: hidden;
-    z-index: 1;
-    text-align: center;
-}
-
-.homepage_desc {
-    font-size: 1vw;
-}
-
 @keyframes navbar {
     from {
         transform: translateY(-10vw);
