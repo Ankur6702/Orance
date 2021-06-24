@@ -112,6 +112,33 @@ body {
     }
 }
 
+.boxContent {
+    visibility: hidden;
+    text-align: center;
+    color: black;
+    padding-top: 3vw;
+    color: purple;
+    animation: delay 3s 3.2s ease-in-out forwards;
+}
+
+@keyframes delay {
+    100% {
+        visibility: visible;
+    }
+}
+
+.boxContent h1 {
+    font-size: 4rem;
+    font-weight:700;
+}
+
+.boxContent p {
+    color: black;
+    font-size: 1.3rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
 .homecontainer {
 /* background: #f0f0f0; */
 background: url("./image/LandingBackground.jpg") center center no-repeat;
