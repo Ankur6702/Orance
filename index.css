@@ -312,6 +312,106 @@ width: 17%;
 .homepage_catagorylink a:hover {
     background-color: rgb(189, 188, 188);
 }
+
+.homepageImageMerge {
+    background-color: #f2f2ff;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 7vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.mergeLeft {
+    background-color: white;
+    padding: 1vw 2vw;
+    position: relative;
+}
+
+.mergeRight {
+    background-color: #8753b7;
+    color: white;
+    padding: 4vw 2vw;
+    position: relative;
+}
+
+.mergeRight h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.mergeRight p {
+    transform: translateY(4vw);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mergeProp {
+    width: 40%;
+    position: absolute;
+}
+
+.mergeProp1 {
+    top: 2vw;
+    left: 2vw;
+}
+
+.mergeProp2 {
+    top: 17vw;
+    right: 4vw;
+}
+
+.mergeProp3 {
+    top: 34vw;
+    left: 2vw;
+}
+
+.mergeStep {
+    position: absolute;
+    text-align: center;
+}
+
+.mergeStep p {
+    color: purple;
+    font-size: 2rem;
+    line-height: 2.5vw;
+}
+
+.mergeStep1 {
+    top: 5vw;
+    right: 8vw;
+}
+.mergeStep2 {
+    top: 20vw;
+    left: 8vw;
+}
+.mergeStep3 {
+    top: 39vw;
+    right: 10vw;
+}
+
+.mergeButton {
+    position: absolute;
+    top: 40vw;
+    left: 18vw;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+    background-color: white;
+}
+
+.mergeButton:hover {
+    background-color: #f2f2ff;
+}
+
+.mergeButton a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+
+
+
 /* CSS for Footer  Starts */
 
 .footer-widget p {
