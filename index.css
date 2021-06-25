@@ -279,7 +279,7 @@ width: 17%;
     transition: 0.5s;
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: -1vw;
     left: 3rem;
     transform: translateY(7.5rem);
 }
@@ -311,6 +311,8 @@ width: 17%;
 
 .homepage_catagorylink a:hover {
     background-color: rgb(189, 188, 188);
+    text-decoration: none;
+    color: black;
 }
 
 .homepageImageMerge {
@@ -400,21 +402,41 @@ width: 17%;
     background-color: white;
 }
 
-.mergeButton:hover {
-    background-color: #f2f2ff;
-}
-
 .mergeButton a {
     text-decoration: none;
     color: black;
     font-size: 1.6rem;
 }
 
+.mergeButton:hover {
+    background-color: #f2f2ff;
+}
+
+.mergeButton a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 .mergeSnap {
     position: absolute;
-    top: 25vw;
+    top: 23vw;
     left: 17vw;
     width: 35%;
+}
+
+.profiles {
+    margin-bottom: 10vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 2vw;
+}
+
+.card-img-top {
+    height: 20vw;
 }
 
 
