@@ -407,7 +407,14 @@ width: 17%;
 .mergeButton a {
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+
+.mergeSnap {
+    position: absolute;
+    top: 25vw;
+    left: 17vw;
+    width: 35%;
 }
 
 
