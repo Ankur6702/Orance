@@ -223,14 +223,14 @@ right: 3vw;
 position: absolute;
 bottom: 2vw;
 left: 10vw;
-width: 22%;
+width: 22vw;
 }
 
 .prop4 {
 position: absolute;
 bottom: 2vw;
 right: 12vw;
-width: 17%;
+width: 17vw;
 }
 
 
@@ -396,7 +396,7 @@ width: 17%;
 .mergeButton {
     position: absolute;
     top: 40vw;
-    left: 18vw;
+    left: 19vw;
     padding: 1vw 2vw;
     border-radius: 1vw;
     background-color: white;
@@ -419,7 +419,7 @@ width: 17%;
 
 .mergeSnap {
     position: absolute;
-    top: 23vw;
+    top: 25vw;
     left: 17vw;
     width: 35%;
 }
