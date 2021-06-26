@@ -23,6 +23,17 @@
     background-color: #ff4500;
 }
 
+.buttonPurple {
+    background-color: purple;
+    border: purple;
+}
+
+.buttonPurple:hover {
+    background-color: purple;
+    color: white;
+    opacity: 0.9;
+}
+
 .nav-item{
     margin: 0 10px;
 }
@@ -43,7 +54,7 @@
     height: 90vh;
     border-left: 2px solid #f0f2f5;
     margin-top: 10vh;
-    padding: 2vw;
+    padding: 2vw 1vw;
     overflow-y: scroll;
     overflow-x: hidden;
 }
