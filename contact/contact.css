@@ -27,7 +27,7 @@ text-align: center;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: blue;
+    background-color: purple;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -37,7 +37,7 @@ text-align: center;
   .contact-orance .contact-orance-team a {
     text-decoration: none;
     font-size: 22px;
-    color: blue;
+    color: purple;
   }
   
   button:hover, a:hover {
@@ -79,7 +79,7 @@ text-align: center;
 
   .submit-form{
     color: white;
-      background-color: #0528c4;
+      background-color: purple;
       border: 1px solid #777;
       border-radius: 2px;
       font-family: inherit;
@@ -144,7 +144,7 @@ div {
 }
 
 .standard_dropdown li a:hover {
-  color: #ff9e40;
+  color: purple;
 }
 
 .standard_dropdown li ul {
@@ -260,7 +260,7 @@ div {
   right: 0;
   width: 50px;
   height: 100%;
-  background: #ff9e40;
+  background: purple;
   border: none;
   outline: none;
   cursor: pointer;
@@ -350,7 +350,7 @@ div {
   font-size: 24px;
   top: -15px;
   position: relative;
-  color: #ff9e40;
+  color: purple;
 }
 
 .footer-css .dk-footer-box-info {
@@ -428,7 +428,7 @@ div {
   display: block;
   width: 115px;
   height: 3px;
-  background: #ff9e40;
+  background: purple;
 }
 
 .animate-border:after {
@@ -490,7 +490,7 @@ div {
 }
 
 .footer-widget a:hover {
-  color: #ff9e40;
+  color: purple;
 }
 
 .footer-widget:after {
@@ -532,8 +532,8 @@ div {
   padding: 12px 24px 10px 17px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid #ff9e40;
-  background: #ff9e40;
+  border: 1px solid purple;
+  background: purple;
   color: #fff;
 }
 
@@ -571,7 +571,7 @@ me {
   font-size: 36px;
   top: -5px;
   position: relative;
-  color: #ff9e40;
+  color: purple;
 }
 
 .contact-info {
