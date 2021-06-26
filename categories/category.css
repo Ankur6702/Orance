@@ -16,7 +16,7 @@
 .main .card {
   width: 25%;
   display: inline-block;
-  box-shadow: 1px 1px 5px orangered;
+  box-shadow: 1px 1px 5px purple;
   border-radius: 5px;
   margin: 3%;
 }
@@ -49,13 +49,13 @@
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
-  border: 1px solid orangered;
+  border: 1px solid purple;
   border-radius: 5px;
   padding: 10px;
 }
 
 .main button:hover {
-  background-color: orangered;
+  background-color: purple;
   color: white;
   transition: 0.5s;
   cursor: pointer;
@@ -114,7 +114,7 @@ div {
 }
 
 .standard_dropdown li a:hover {
-  color: #ff9e40;
+  color: purple;
 }
 
 .standard_dropdown li ul {
@@ -230,7 +230,7 @@ div {
   right: 0;
   width: 50px;
   height: 100%;
-  background: #ff9e40;
+  background: purple;
   border: none;
   outline: none;
   cursor: pointer;
@@ -320,7 +320,7 @@ div {
   font-size: 24px;
   top: -15px;
   position: relative;
-  color: #ff9e40;
+  color: purple;
 }
 
 .footer-css .dk-footer-box-info {
@@ -398,7 +398,7 @@ div {
   display: block;
   width: 115px;
   height: 3px;
-  background: #ff9e40;
+  background: purple;
 }
 
 .animate-border:after {
@@ -460,7 +460,7 @@ div {
 }
 
 .footer-widget a:hover {
-  color: #ff9e40;
+  color: purple;
 }
 
 .footer-widget:after {
@@ -502,8 +502,8 @@ div {
   padding: 12px 24px 10px 17px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid #ff9e40;
-  background: #ff9e40;
+  border: 1px solid purple;
+  background: purple;
   color: #fff;
 }
 
@@ -541,7 +541,7 @@ div {
   font-size: 36px;
   top: -5px;
   position: relative;
-  color: #ff9e40;
+  color: purple;
 }
 
 .contact-info {
