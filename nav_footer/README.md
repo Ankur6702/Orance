@@ -1,5 +1,5 @@
-## The following will be the look of navigation bar...
+## NavBar
 ![NavBar](nav_bar.png)
 
-## The following will be the footer section ...
+## Footer
 ![FooterBar](footer_bar.gif)
