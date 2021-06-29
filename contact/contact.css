@@ -1,103 +1,103 @@
-.contact-orance{
-    margin-top: 30px;
-    display: flex;
-    padding: 15px;
+.contact-orance {
+  margin-top: 30px;
+  display: flex;
+  padding: 15px;
 }
 
-.contact-team h1{
-padding-top: 30px;
-text-align: center;
+.contact-team h1 {
+  padding-top: 30px;
+  text-align: center;
 }
 .contact-orance-team {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  
-   .contact-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: purple;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  } 
-  
-  .contact-orance .contact-orance-team a {
-    text-decoration: none;
-    font-size: 22px;
-    color: purple;
-  }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
-  .contact-team-icon a{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .about-team {
-      background-color: #fff;
-      max-width: 500px;
-      margin: 50px auto;
-      padding: 30px 20px;
-      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-  }
+.title {
+  color: grey;
+  font-size: 18px;
+}
 
-  .contact-form-orance {
-      text-align: left;
-      margin-bottom: 25px;
-  }
+.contact-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: purple;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
 
-  .contact-form-orance label {
-      display: block;
-      margin-bottom: 10px;
-  }
+.contact-orance .contact-orance-team a {
+  text-decoration: none;
+  font-size: 22px;
+  color: purple;
+}
 
-  .contact-form-orance input,
-  .contact-form-orance select,
-  .contact-form-orance textarea {
-      border: 1px solid #777;
-      border-radius: 2px;
-      font-family: inherit;
-      padding: 10px;
-      display: block;
-      width: 95%;
-  }
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
 
-  .submit-form{
-    color: white;
-      background-color: purple;
-      border: 1px solid #777;
-      border-radius: 2px;
-      font-family: inherit;
-      font-size: 21px;
-      display: block;
-      width: 100%;
-      margin-top: 50px;
-      margin-bottom: 10px;
-      padding: 8px;
-  } 
+.contact-team-icon a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-team {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
-  
+.contact-form-orance {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.contact-form-orance label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form-orance input,
+.contact-form-orance select,
+.contact-form-orance textarea {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+.submit-form {
+  color: white;
+  background-color: purple;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
 /* NavBar CSS */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900");
-*{
-    margin: 0;
-    padding: 0;
-    /* height: 100vh; */
+* {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -350,7 +350,7 @@ div {
   font-size: 24px;
   top: -15px;
   position: relative;
-  color: purple;
+  color: #bf40bf;
 }
 
 .footer-css .dk-footer-box-info {
@@ -428,7 +428,7 @@ div {
   display: block;
   width: 115px;
   height: 3px;
-  background: purple;
+  background: #bf40bf;
 }
 
 .animate-border:after {
@@ -490,7 +490,7 @@ div {
 }
 
 .footer-widget a:hover {
-  color: purple;
+  color: #bf40bf;
 }
 
 .footer-widget:after {
@@ -532,8 +532,8 @@ div {
   padding: 12px 24px 10px 17px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid purple;
-  background: purple;
+  border: 1px solid #bf40bf;
+  background: #bf40bf;
   color: #fff;
 }
 
@@ -571,7 +571,7 @@ me {
   font-size: 36px;
   top: -5px;
   position: relative;
-  color: purple;
+  color: #bf40bf;
 }
 
 .contact-info {

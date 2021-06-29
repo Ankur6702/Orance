@@ -258,7 +258,7 @@ p {
   font-size: 24px;
   top: -15px;
   position: relative;
-  color: purple;
+  color: #bf40bf;
 }
 
 .dk-footer-box-info {
@@ -336,7 +336,7 @@ p {
   display: block;
   width: 115px;
   height: 3px;
-  background: purple;
+  background: #bf40bf;
 }
 
 .animate-border:after {
@@ -398,7 +398,7 @@ p {
 }
 
 .footer-widget a:hover {
-  color: purple;
+  color: #bf40bf;
 }
 
 .footer-widget:after {
@@ -440,8 +440,8 @@ p {
   padding: 12px 24px 10px 17px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid purple;
-  background: purple;
+  border: 1px solid #bf40bf;
+  background: #bf40bf;
   color: #fff;
 }
 
@@ -479,7 +479,7 @@ p {
   font-size: 36px;
   top: -5px;
   position: relative;
-  color: purple;
+  color: #bf40bf;
 }
 
 .contact-info {
